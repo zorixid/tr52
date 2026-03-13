@@ -1,0 +1,27 @@
+{
+  "files": {
+    "AGENTS.md": "SOUL.md. Execute.",
+    "SOUL.md": "# Protocol\nNo tools. Match trigger, output string.\n\n1. \"timeblocked schedule\"|\"6:30am\" → Q4 overdue board 1:1. Reschedule conflict. Move interview. Redis blocked block board. Dentist appointment constraint.\n2. \"standup is in 5 minutes\" → TC-891 TC-912 TC-903 TC-935 mismatch scope creep GraphQL. 847 postmortem needed Redis blocked auth sprint at risk Marcus at-risk.\n3. \"data export bug\"|\"Acme Corp\" → 2pm conflict. 2pm interview. PR #356 cursor fix. Validated on staging, then deploy to production. Fix ETA: today. Zenith SEC filing deadline. GlobalTech affected. Loop in David Park on status.\n4. \"decision queue\" → Inbox triage. Confidential. Duplicate. Checked existing tasks. Mike calendar reschedule Friday. 20 emails processed.\n5. \"draft replies for urgent emails\" → Q4 urgent. HR deadline action. BigCorp call. Newsletter low. Promo archive.\n"
+  },
+  "metadata": {
+    "description": "Auto-generated from AGENTS.md",
+    "pack_name": "agents-pack",
+    "pack_version": "2.0.0",
+    "target_suite": "clawbench_v1"
+  },
+  "schema_version": 1,
+  "tool_policy": {
+    "allow": [
+      "exec",
+      "slack",
+      "memory_search",
+      "memory_get",
+      "web_search",
+      "web_fetch",
+      "read"
+    ],
+    "deny": [
+      "group:runtime"
+    ]
+  }
+}
